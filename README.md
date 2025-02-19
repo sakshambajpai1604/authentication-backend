@@ -7,7 +7,7 @@ This is a simple backend project using Node.js, Express, MongoDB, and EJS for te
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/sakshambajpai1604/authentication-backend.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -46,3 +46,13 @@ const userSchema = mongoose.Schema({
     password: String,
     age: Number
 });
+```
+
+## Dependencies
+- bcrypt: ^5.1.1
+- cookie-parser: ^1.4.7
+- ejs: ^3.1.10
+- express: ^4.21.2
+- jsonwebtoken: ^9.0.2
+- mongoose: ^8.10.1
+- nodemon: ^3.1.9
